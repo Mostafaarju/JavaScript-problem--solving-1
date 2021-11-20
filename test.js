@@ -69,3 +69,13 @@ if (isNaN(age)) {
 } else {
   console.log(age < 18 ? 'Too Young' : 'Old Enough');
 }
+
+//
+console.log('New Class Practices');
+
+console.log(Number('    '));
+let j = '5';
+let g = +j;
+console.log(typeof g);
+
+console.log((100 + 5).toString());
