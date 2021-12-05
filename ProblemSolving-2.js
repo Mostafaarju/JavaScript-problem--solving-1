@@ -53,6 +53,7 @@ function fizzBuzz(number) {
     }
   }
 }
+
 // fizzBuzz(100);
 
 const mixedArray = [
@@ -109,3 +110,9 @@ const truthyObj = function (obj) {
 };
 
 console.log(truthyObj(obj));
+
+// let maxNumb = Math.max.apply(null, [2, 4, 5, 6, 85, 34, 23, 9]);
+
+let maxNumb = Math.random.apply(null, [2, 4, 5, 6, 85, 34, 23, 9]);
+
+console.log('MaxNumb' + ' ' + maxNumb);
