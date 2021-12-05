@@ -1,12 +1,12 @@
-function temp() {
-  let counter = 0;
-  return function () {
-    counter += 1;
-  };
-}
-const add = temp();
-add();
-console.log();
+// function temp() {
+//   let counter = 0;
+//   return function () {
+//     counter += 1;
+//   };
+// }
+// const add = temp();
+// add();
+// console.log();
 
 const paymentSuccess = true;
 const mark = 80;
